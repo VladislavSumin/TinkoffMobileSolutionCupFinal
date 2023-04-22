@@ -19,6 +19,7 @@ class UikitContentCard @JvmOverloads constructor(
     private val title: TextView
     private val description: TextView
     private val icon: ImageView
+    private val close: ImageView
 
     init {
         inflate(context, R.layout.uikit_content_card, this)
@@ -26,17 +27,25 @@ class UikitContentCard @JvmOverloads constructor(
         title = findViewById(R.id.uikit_content_card_tile)
         description = findViewById(R.id.uikit_content_card_description)
         icon = findViewById(R.id.uikit_content_card_icon)
+        close = findViewById(R.id.uikit_content_card_close)
 
         context.obtainStyledAttributes(attrs, R.styleable.UikitContentCard).use {
             val titleText = it.getText(R.styleable.UikitContentCard_titleText)
             val subtitleText = it.getText(R.styleable.UikitContentCard_subtitleText)
             val iconDrawable = it.getDrawable(R.styleable.UikitContentCard_icon)
+            val isShowClose = it.getBoolean(R.styleable.UikitContentCard_showClose, false)
 
             setTitleText(titleText)
             setDescriptionText(subtitleText)
             setIconDrawable(iconDrawable)
+            setShowClose(isShowClose)
         }
     }
+
+    fun setShowClose(showClose: Boolean) {
+        close.visibility = if (showClose) View.VISIBLE else View.GONE
+    }
+
 
     fun setTitleText(text: CharSequence?) {
         title.visibility = if (text != null) View.VISIBLE else View.GONE

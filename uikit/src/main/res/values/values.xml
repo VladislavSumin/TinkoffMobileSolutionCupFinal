@@ -24,6 +24,7 @@
     <attr name="headerText" format="reference|string" />
     <attr name="subheaderText" format="reference|string" />
     <attr name="icon" format="reference" />
+    <attr name="showClose" format="boolean" />
 
     <declare-styleable name="UiCard">
         <attr name="android:enabled" />
@@ -39,5 +40,6 @@
         <attr name="titleText" />
         <attr name="subtitleText" />
         <attr name="icon" />
+        <attr name="showClose" />
     </declare-styleable>
 </resources>

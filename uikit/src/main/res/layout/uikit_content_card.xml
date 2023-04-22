@@ -44,6 +44,14 @@
                 tools:text="Description" />
         </LinearLayout>
 
+        <ImageView
+            android:id="@+id/uikit_content_card_close"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/uikit_card_close_background"
+            android:padding="4dp"
+            android:src="@drawable/uikit_ic_close" />
+
     </LinearLayout>
 
 </merge>
