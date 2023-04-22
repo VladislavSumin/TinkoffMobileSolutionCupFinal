@@ -31,11 +31,11 @@ class UikitHeaderCard @JvmOverloads constructor(
         context.obtainStyledAttributes(attrs, R.styleable.UikitHeaderCard).use {
             val headerText = it.getText(R.styleable.UikitHeaderCard_headerText)
             val subheaderText = it.getText(R.styleable.UikitHeaderCard_subheaderText)
-            val iconDrawale = it.getDrawable(R.styleable.UikitHeaderCard_icon)
+            val iconDrawable = it.getDrawable(R.styleable.UikitHeaderCard_icon)
 
             setHeaderText(headerText)
             setSubheaderText(subheaderText)
-            setIconDrawable(iconDrawale)
+            setIconDrawable(iconDrawable)
         }
     }
 

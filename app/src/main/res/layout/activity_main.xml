@@ -87,5 +87,17 @@
                 android:text="Button" />
         </ru.vs.uikit.components.UikitHeaderCard>
 
+
+        <ru.vs.uikit.components.UikitContentCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="4dp"
+            android:enabled="true"
+            app:icon="@drawable/uikit_ic_star"
+            app:subtitleText="Subtitle"
+            app:titleText="Title" />
+
+
     </LinearLayout>
 </ScrollView>

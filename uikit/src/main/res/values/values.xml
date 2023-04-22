@@ -13,10 +13,14 @@
 
     <attr name="uikitTextHeader" format="reference" />
     <attr name="uikitTextSubheader" format="reference" />
+    <attr name="uikitTextTitle" format="reference" />
+    <attr name="uikitTextDescription" format="reference" />
 
     <attr name="uikitButtonFlat" format="reference" />
 
 
+    <attr name="titleText" format="reference|string" />
+    <attr name="subtitleText" format="reference|string" />
     <attr name="headerText" format="reference|string" />
     <attr name="subheaderText" format="reference|string" />
     <attr name="icon" format="reference" />
@@ -28,6 +32,12 @@
     <declare-styleable name="UikitHeaderCard">
         <attr name="headerText" />
         <attr name="subheaderText" />
+        <attr name="icon" />
+    </declare-styleable>
+
+    <declare-styleable name="UikitContentCard">
+        <attr name="titleText" />
+        <attr name="subtitleText" />
         <attr name="icon" />
     </declare-styleable>
 </resources>
