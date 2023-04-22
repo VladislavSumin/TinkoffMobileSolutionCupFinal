@@ -58,4 +58,10 @@
         <attr name="showClose" />
     </declare-styleable>
 
+    <declare-styleable name="UikitContentSquared">
+        <attr name="titleText" />
+        <attr name="subtitleText" />
+        <attr name="icon" />
+    </declare-styleable>
+
 </resources>
