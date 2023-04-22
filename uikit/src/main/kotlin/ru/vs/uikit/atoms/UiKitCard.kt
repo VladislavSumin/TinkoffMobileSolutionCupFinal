@@ -6,7 +6,7 @@ import android.util.AttributeSet
 import android.widget.FrameLayout
 import ru.vs.uikit.R
 
-class UiCard @JvmOverloads constructor(
+open class UiKitCard @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0,
