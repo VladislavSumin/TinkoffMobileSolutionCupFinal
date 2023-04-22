@@ -298,8 +298,8 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
             android:layout_marginVertical="36dp"
-            android:enabled="true"
             android:clipChildren="false"
+            android:enabled="true"
             app:buttonText="Button"
             app:headerText="Header">
 
@@ -364,10 +364,13 @@
 
         </ru.vs.uikit.components.UikitHeaderSecondaryCard>
 
-
-        <Space
+        <Button
+            style="?attr/uikitButton"
             android:layout_width="match_parent"
-            android:layout_height="24dp" />
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="36dp"
+            android:text="Button" />
 
     </LinearLayout>
 </ScrollView>
