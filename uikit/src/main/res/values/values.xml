@@ -2,7 +2,8 @@
 <resources>
     <attr name="uikitBackgroundPrimaryColor" format="reference" />
     <attr name="uikitBackgroundSecondaryColor" format="reference" />
-    <attr name="flatButtonTint" format="reference" />
+    <attr name="uikitButtonTint" format="reference" />
+    <attr name="uikitButtonPressedTint" format="reference" />
 
     <attr name="uikitTextPrimaryColor" format="reference" />
     <attr name="uikitTextSecondaryColor" format="reference" />

@@ -3,7 +3,8 @@
     <style name="Theme.UiKit.Light" parent="android:Theme.Holo.Light">
         <item name="uikitBackgroundPrimaryColor">@color/backgroundPrimaryColorLight</item>
         <item name="uikitBackgroundSecondaryColor">@color/backgroundSecondaryColorLight</item>
-        <item name="flatButtonTint">@color/flatButtonTintLight</item>
+        <item name="uikitButtonTint">@color/flatButtonTintLight</item>
+        <item name="uikitButtonPressedTint">@color/flatButtonTintPressedLight</item>
 
         <item name="uikitTextPrimaryColor">@color/textPrimaryColorLight</item>
         <item name="uikitTextSecondaryColor">@color/textSecondaryColorLight</item>
