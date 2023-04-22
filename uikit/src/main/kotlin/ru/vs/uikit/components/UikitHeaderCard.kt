@@ -1,7 +1,10 @@
 package ru.vs.uikit.components
 
 import android.content.Context
+import android.graphics.drawable.Drawable
 import android.util.AttributeSet
+import android.view.View
+import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import ru.vs.uikit.R
@@ -30,9 +33,24 @@ class UikitHeaderCard @JvmOverloads constructor(
             val subheaderText = it.getText(R.styleable.UikitHeaderCard_subheaderText)
             val iconDrawale = it.getDrawable(R.styleable.UikitHeaderCard_icon)
 
-            header.text = headerText
-            subheader.text = subheaderText
-            icon.setImageDrawable(iconDrawale)
+            setHeaderText(headerText)
+            setSubheaderText(subheaderText)
+            setIconDrawable(iconDrawale)
         }
+    }
+
+    fun setHeaderText(text: CharSequence?) {
+        header.visibility = if (text != null) View.VISIBLE else View.GONE
+        header.text = text
+    }
+
+    fun setSubheaderText(text: CharSequence?) {
+        subheader.visibility = if (text != null) View.VISIBLE else View.GONE
+        subheader.text = text
+    }
+
+    fun setIconDrawable(drawable: Drawable?) {
+        icon.visibility = if (drawable != null) View.VISIBLE else View.GONE
+        icon.setImageDrawable(drawable)
     }
 }
