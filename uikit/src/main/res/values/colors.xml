@@ -2,6 +2,7 @@
 <resources>
     <color name="backgroundPrimaryColorLight">@android:color/white</color>
     <color name="backgroundSecondaryColorLight">#F6F7F8</color>
+    <color name="flatButtonTintLight">#10240800</color>
 
     <color name="textPrimaryColorLight">#000000</color>
     <color name="textSecondaryColorLight">#9299A2</color>

@@ -3,14 +3,18 @@
     <style name="Theme.UiKit.Light" parent="android:Theme.Holo.Light">
         <item name="uikitBackgroundPrimaryColor">@color/backgroundPrimaryColorLight</item>
         <item name="uikitBackgroundSecondaryColor">@color/backgroundSecondaryColorLight</item>
+        <item name="flatButtonTint">@color/flatButtonTintLight</item>
 
         <item name="uikitTextPrimaryColor">@color/textPrimaryColorLight</item>
         <item name="uikitTextSecondaryColor">@color/textSecondaryColorLight</item>
 
         <item name="uikitCardCornerRadius">@dimen/uikitCardCornerRadiusDefault</item>
+        <item name="uikitButtonCornerRadius">@dimen/uikitButtonCornerRadiusDefault</item>
 
         <item name="uikitTextHeader">@style/UiKit.Text.Header</item>
         <item name="uikitTextSubheader">@style/UiKit.Text.Subheader</item>
+
+        <item name="uikitButtonFlat">@style/UiKit.Button.Flat</item>
     </style>
 
     <style name="UiKit" />
@@ -28,5 +32,12 @@
         <item name="android:textColor">?uikitTextSecondaryColor</item>
         <item name="android:textSize">14sp</item>
     </style>
+
+    <style name="UiKit.Button" />
+
+    <style name="UiKit.Button.Flat">
+        <item name="android:background">@drawable/uikit_flat_button_background</item>
+    </style>
+
 </resources>
 

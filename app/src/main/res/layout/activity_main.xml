@@ -1,48 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ru.vs.uikit.components.UikitHeaderCard
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
-        android:enabled="true"
-        app:headerText="Header"
-        app:icon="@drawable/uikit_ic_star"
-        app:subheaderText="Subheader" />
 
-    <ru.vs.uikit.components.UikitHeaderCard
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
-        android:enabled="false"
-        app:headerText="Header"
-        app:icon="@drawable/uikit_ic_star"
-        app:subheaderText="Subheader" />
+        android:orientation="vertical">
 
-    <ru.vs.uikit.components.UikitHeaderCard
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
-        app:headerText="Header"
-        app:icon="@drawable/uikit_ic_star" />
+        <ru.vs.uikit.components.UikitHeaderCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="4dp"
+            android:enabled="true"
+            app:headerText="Header"
+            app:icon="@drawable/uikit_ic_star"
+            app:subheaderText="Subheader" />
 
-    <ru.vs.uikit.components.UikitHeaderCard
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
-        android:enabled="false"
-        app:headerText="Header"
-        app:icon="@drawable/uikit_ic_star" />
+        <ru.vs.uikit.components.UikitHeaderCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="4dp"
+            android:enabled="false"
+            app:headerText="Header"
+            app:icon="@drawable/uikit_ic_star"
+            app:subheaderText="Subheader" />
 
+        <ru.vs.uikit.components.UikitHeaderCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="4dp"
+            app:headerText="Header"
+            app:icon="@drawable/uikit_ic_star" />
 
-</LinearLayout>
+        <ru.vs.uikit.components.UikitHeaderCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="4dp"
+            android:enabled="false"
+            app:headerText="Header"
+            app:icon="@drawable/uikit_ic_star" />
+
+        <ru.vs.uikit.components.UikitHeaderCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="4dp"
+            android:enabled="true"
+            app:headerText="Header"
+            app:icon="@drawable/uikit_ic_star"
+            app:subheaderText="Subheader">
+
+            <Button
+                style="?uikitButtonFlat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Button" />
+        </ru.vs.uikit.components.UikitHeaderCard>
+
+        <ru.vs.uikit.components.UikitHeaderCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="4dp"
+            android:enabled="false"
+            app:headerText="Header"
+            app:icon="@drawable/uikit_ic_star"
+            app:subheaderText="Subheader">
+
+            <Button
+                style="?uikitButtonFlat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Button" />
+        </ru.vs.uikit.components.UikitHeaderCard>
+
+    </LinearLayout>
+</ScrollView>
