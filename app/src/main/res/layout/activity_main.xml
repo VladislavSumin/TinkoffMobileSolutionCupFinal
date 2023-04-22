@@ -18,16 +18,19 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
+                    style="?uikitTextHeader"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Header" />
 
                 <TextView
+                    style="?uikitTextSubheader"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Subheader" />
@@ -35,14 +38,10 @@
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:src="@drawable/uikit_ic_star" />
 
         </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Header" />
     </ru.vs.uikit.atoms.UiCard>
 
 

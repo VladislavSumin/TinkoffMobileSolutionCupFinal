@@ -3,6 +3,31 @@
     <style name="Theme.UiKit.Light" parent="android:Theme.Holo.Light">
         <item name="uikitBackgroundPrimaryColor">@color/backgroundPrimaryColorLight</item>
         <item name="uikitBackgroundSecondaryColor">@color/backgroundSecondaryColorLight</item>
+
+        <item name="uikitTextPrimaryColor">@color/textPrimaryColorLight</item>
+        <item name="uikitTextSecondaryColor">@color/textSecondaryColorLight</item>
+
         <item name="uikitCardCornerRadius">@dimen/uikitCardCornerRadiusDefault</item>
+
+        <item name="uikitTextHeader">@style/UiKit.Text.Header</item>
+        <item name="uikitTextSubheader">@style/UiKit.Text.Subheader</item>
+    </style>
+
+    <style name="UiKit" />
+
+    <style name="UiKit.Text">
+        <item name="android:textColor">?uikitTextPrimaryColor</item>
+    </style>
+
+    <style name="UiKit.Text.Header">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="UiKit.Text.Subheader">
+        <item name="android:textColor">?uikitTextSecondaryColor</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>
+

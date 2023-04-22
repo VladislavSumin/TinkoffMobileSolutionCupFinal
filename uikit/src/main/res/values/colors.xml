@@ -2,4 +2,7 @@
 <resources>
     <color name="backgroundPrimaryColorLight">@android:color/white</color>
     <color name="backgroundSecondaryColorLight">#9299A2</color>
+
+    <color name="textPrimaryColorLight">#000000</color>
+    <color name="textSecondaryColorLight">#9299A2</color>
 </resources>

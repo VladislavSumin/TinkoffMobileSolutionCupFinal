@@ -2,5 +2,12 @@
 <resources>
     <attr name="uikitBackgroundPrimaryColor" format="reference"/>
     <attr name="uikitBackgroundSecondaryColor" format="reference"/>
+
+    <attr name="uikitTextPrimaryColor" format="reference"/>
+    <attr name="uikitTextSecondaryColor" format="reference"/>
+
     <attr name="uikitCardCornerRadius" format="reference"/>
+
+    <attr name="uikitTextHeader" format="reference"/>
+    <attr name="uikitTextSubheader" format="reference"/>
 </resources>
