@@ -29,5 +29,10 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+
+    <declare-styleable name="UiCard">
+        <attr name="android:enabled"/>
+    </declare-styleable>
 </resources>
 
