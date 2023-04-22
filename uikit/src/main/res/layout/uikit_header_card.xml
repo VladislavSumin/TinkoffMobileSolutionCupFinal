@@ -20,24 +20,27 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/uikit_header_card_header"
                 style="?uikitTextHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Header" />
+                tools:text="Header" />
 
             <TextView
+                android:id="@+id/uikit_header_card_subheader"
                 style="?uikitTextSubheader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="8dp"
-                android:text="Subheader" />
+                tools:text="Subheader" />
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/uikit_header_card_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/uikit_ic_star" />
+            tools:src="@drawable/uikit_ic_star" />
 
     </LinearLayout>
 

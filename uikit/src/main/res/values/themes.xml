@@ -28,9 +28,5 @@
         <item name="android:textColor">?uikitTextSecondaryColor</item>
         <item name="android:textSize">14sp</item>
     </style>
-
-    <declare-styleable name="UiCard">
-        <attr name="android:enabled" />
-    </declare-styleable>
 </resources>
 
