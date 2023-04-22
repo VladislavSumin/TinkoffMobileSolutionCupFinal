@@ -50,4 +50,11 @@
         <attr name="showClose" />
     </declare-styleable>
 
+    <declare-styleable name="UikitContent">
+        <attr name="titleText" />
+        <attr name="subtitleText" />
+        <attr name="icon" />
+        <attr name="showClose" />
+    </declare-styleable>
+
 </resources>

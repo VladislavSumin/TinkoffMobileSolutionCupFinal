@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="4dp"
+            android:layout_marginVertical="8dp"
             android:enabled="true"
             app:headerText="Header"
             app:icon="@drawable/uikit_ic_star"
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="4dp"
+            android:layout_marginVertical="8dp"
             android:enabled="false"
             app:headerText="Header"
             app:icon="@drawable/uikit_ic_star"
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="4dp"
+            android:layout_marginVertical="8dp"
             app:headerText="Header"
             app:icon="@drawable/uikit_ic_star" />
 
@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="4dp"
+            android:layout_marginVertical="8dp"
             android:enabled="false"
             app:headerText="Header"
             app:icon="@drawable/uikit_ic_star" />
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="4dp"
+            android:layout_marginVertical="8dp"
             android:enabled="true"
             app:headerText="Header"
             app:icon="@drawable/uikit_ic_star"
@@ -73,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="4dp"
+            android:layout_marginVertical="8dp"
             android:enabled="false"
             app:headerText="Header"
             app:icon="@drawable/uikit_ic_star"
@@ -93,7 +93,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="4dp"
+            android:layout_marginVertical="8dp"
             android:enabled="true"
             app:icon="@drawable/uikit_ic_star"
             app:subtitleText="Subtitle"
@@ -103,7 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="4dp"
+            android:layout_marginVertical="8dp"
             android:enabled="false"
             app:icon="@drawable/uikit_ic_star"
             app:subtitleText="Subtitle"
@@ -113,7 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="4dp"
+            android:layout_marginVertical="8dp"
             android:enabled="true"
             app:icon="@drawable/uikit_ic_star"
             app:showClose="true"
@@ -125,10 +125,48 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="4dp"
+            android:layout_marginVertical="8dp"
             android:enabled="true"
             app:buttonText="Button"
-            app:headerText="Header" />
+            app:headerText="Header">
+
+            <ru.vs.uikit.components.UikitContent
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/uikit_ic_star"
+                app:subtitleText="Subtitle"
+                app:titleText="Title" />
+
+            <ru.vs.uikit.components.UikitContent
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/uikit_ic_star"
+                app:subtitleText="Subtitle"
+                app:titleText="Title" />
+
+            <ru.vs.uikit.components.UikitContent
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/uikit_ic_star"
+                app:subtitleText="Subtitle"
+                app:titleText="Title" />
+
+            <ru.vs.uikit.components.UikitContent
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/uikit_ic_star"
+                app:subtitleText="Subtitle"
+                app:titleText="Title" />
+
+            <Button
+                style="?attr/uikitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Button" />
+
+        </ru.vs.uikit.components.UikitHeaderSecondaryCard>
 
     </LinearLayout>
 </ScrollView>
