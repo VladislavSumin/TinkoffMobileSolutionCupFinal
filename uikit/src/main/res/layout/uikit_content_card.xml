@@ -33,6 +33,7 @@
                 style="?uikitTextTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:maxLines="1"
                 tools:text="Title" />
 
             <TextView
@@ -40,6 +41,7 @@
                 style="?uikitTextDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:maxLines="1"
                 android:paddingTop="8dp"
                 tools:text="Description" />
         </LinearLayout>
