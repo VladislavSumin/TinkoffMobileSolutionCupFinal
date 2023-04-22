@@ -16,6 +16,7 @@
     <attr name="uikitTextTitle" format="reference" />
     <attr name="uikitTextDescription" format="reference" />
 
+    <attr name="uikitButton" format="reference" />
     <attr name="uikitButtonFlat" format="reference" />
 
 
@@ -23,6 +24,7 @@
     <attr name="subtitleText" format="reference|string" />
     <attr name="headerText" format="reference|string" />
     <attr name="subheaderText" format="reference|string" />
+    <attr name="buttonText" format="reference|string" />
     <attr name="icon" format="reference" />
     <attr name="showClose" format="boolean" />
 
@@ -36,10 +38,16 @@
         <attr name="icon" />
     </declare-styleable>
 
+    <declare-styleable name="UikitHeaderSecondaryCard">
+        <attr name="headerText" />
+        <attr name="buttonText" />
+    </declare-styleable>
+
     <declare-styleable name="UikitContentCard">
         <attr name="titleText" />
         <attr name="subtitleText" />
         <attr name="icon" />
         <attr name="showClose" />
     </declare-styleable>
+
 </resources>

@@ -17,6 +17,7 @@
         <item name="uikitTextTitle">@style/UiKit.Text.Title</item>
         <item name="uikitTextDescription">@style/UiKit.Text.Description</item>
 
+        <item name="uikitButton">@style/UiKit.Button</item>
         <item name="uikitButtonFlat">@style/UiKit.Button.Flat</item>
     </style>
 
@@ -49,10 +50,12 @@
     <style name="UiKit.Button">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">?uikitTextAccentColor</item>
+        <item name="android:background">@drawable/uikit_button_background</item>
     </style>
 
     <style name="UiKit.Button.Flat">
-        <item name="android:background">@drawable/uikit_flat_button_background</item>
+        <item name="android:background">@drawable/uikit_button_background_flat</item>
+
     </style>
 
 </resources>
