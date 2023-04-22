@@ -1,7 +1,6 @@
 package ru.vs.tinkoffmobilesolutioncupfinal
 
 import android.app.Activity
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class MainActivity : Activity() {
