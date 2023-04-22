@@ -7,6 +7,7 @@
 
         <item name="uikitTextPrimaryColor">@color/textPrimaryColorLight</item>
         <item name="uikitTextSecondaryColor">@color/textSecondaryColorLight</item>
+        <item name="uikitTextAccentColor">@color/uikitTextAccentColorLight</item>
 
         <item name="uikitCardCornerRadius">@dimen/uikitCardCornerRadiusDefault</item>
         <item name="uikitButtonCornerRadius">@dimen/uikitButtonCornerRadiusDefault</item>
@@ -33,7 +34,10 @@
         <item name="android:textSize">14sp</item>
     </style>
 
-    <style name="UiKit.Button" />
+    <style name="UiKit.Button" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?uikitTextAccentColor</item>
+    </style>
 
     <style name="UiKit.Button.Flat">
         <item name="android:background">@drawable/uikit_flat_button_background</item>

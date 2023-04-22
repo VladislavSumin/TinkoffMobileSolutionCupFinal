@@ -6,6 +6,7 @@
 
     <attr name="uikitTextPrimaryColor" format="reference" />
     <attr name="uikitTextSecondaryColor" format="reference" />
+    <attr name="uikitTextAccentColor" format="reference" />
 
     <attr name="uikitCardCornerRadius" format="reference" />
     <attr name="uikitButtonCornerRadius" format="reference" />
